@@ -6,10 +6,8 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 
 ## 🌐 Using Free Proxies from Webshare
 
-This project uses 5 proxy server URLs from Webshare to avoid IP blocking.
-
-All proxies are stored in the .env file as environment variables.
-
+This project uses 5 proxy server URLs from Webshare to avoid IP blocking.  
+All proxies are stored in the .env file as environment variables.  
 You can get your own free proxy list here:
 https://dashboard.webshare.io/proxy/list
 
