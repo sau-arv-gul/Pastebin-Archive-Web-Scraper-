@@ -59,17 +59,17 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 - Telegram links: "t.me"
 
 ## 🛠️ How It Works
-Scrape Pastebin Archive
+- 1. Scrape Pastebin Archive
 → Extract recent Paste IDs from the homepage.
 
-Rotate Proxies
+- 2. Rotate Proxies
 → Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.
 
-Fetch Raw Content
+- 3. Fetch Raw Content
 → Each paste is accessed using its raw content link (https://pastebin.com/raw/<paste_id>).
 
-Search for Keywords
+- 4. Search for Keywords
 → If any keyword is found in the content, the paste is logged.
 
-Log Results
+- 4. Log Results
 → Matches are saved in structured JSONL format (keyword_matches.jsonl) for further use.
