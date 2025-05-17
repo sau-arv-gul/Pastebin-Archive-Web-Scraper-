@@ -11,4 +11,4 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 ├── keyword_matches.jsonl  # Output file with matched results
 └── README.md              
 
-### 🔧 Proxy Setup
+##🔧 Proxy Setup
