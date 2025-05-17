@@ -12,6 +12,17 @@ It also keeps detailed logs of everything it checks. Whenever it finds a match, 
 - You can get your own free proxy list here:
 https://dashboard.webshare.io/proxy/list
 
+## ✨ Features
+
+- 🔍 Scans Pastebin for recent public pastes
+- 🪙 Detects keywords like `bitcoin`, `ethereum`, `blockchain`, and Telegram links
+- 🛡️ Uses proxy rotation to avoid IP blocking
+- 🐌 Adds delay between requests (rate limiting)
+- 📜 Maintains a detailed log (`crawler.log`)
+- 🧾 Saves matches in structured `.jsonl` format
+
+---
+
 ##  Project Structure
 ```
 ├── .env                   # Environment variables (contains proxy list)
