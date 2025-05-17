@@ -61,7 +61,9 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 ## 🛠️ How It Works
 
 1. **Scrape Pastebin Archive**  
-    Extract recent Paste IDs from the homepage.  
+    Extract recent Paste IDs from the homepage. This is done by sending a request
+    to the archive page and parsing the HTML content to find links to individual pastes.
+   The system uses rotating proxies to make the requests appear from different IP addresses.  
    Below image shows Archive page being scraped:
    
    ![Image](https://github.com/user-attachments/assets/fd1452a9-e5f9-46e0-bad9-19b2d3d5fa47)
