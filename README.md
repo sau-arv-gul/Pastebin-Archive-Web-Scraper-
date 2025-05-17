@@ -76,7 +76,7 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
    ![Image](https://github.com/user-attachments/assets/ec2b061e-d62c-490c-a1dd-6b6570e16cd4)
 
 5. **Fetch Raw Content**  
-   → Each paste is accessed using its raw content link (`https://pastebin.com/raw/<paste_id>`).
+    Each paste is accessed using its raw content link (`https://pastebin.com/raw/<paste_id>`).
 
    ![Image](https://github.com/user-attachments/assets/02c964cd-91ec-4723-b1d3-d65c1b7ca102)
 
@@ -87,6 +87,6 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
      ![Image](https://github.com/user-attachments/assets/8fc317e9-d528-42de-8f81-f29a0dc36bbf)
 
 9. **Results**  
-   → Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
+    Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
 
 ![Image](https://github.com/user-attachments/assets/55feac93-9157-4f10-b473-289e9d694f25)
