@@ -11,7 +11,7 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 ├── keyword_matches.jsonl  # Output file with matched results
 └── README.md              
 ```
-## 🔧 Proxy Setup
+## 🌐 Using Free Proxies from Webshare
 This project uses 5 proxy server URLs from Webshare to avoid IP blocking.
 All proxies are stored in the .env file as environment variables.
 You can get your own free proxy list here:
