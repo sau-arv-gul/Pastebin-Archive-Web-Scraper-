@@ -54,3 +54,6 @@ python crawler.py
 ```
 
 # 🔍 Proof of Concept (PoC)
+This project demonstrates an automated crawler that monitors the Pastebin archive for pastes containing sensitive or targeted keywords like:
+- Crypto-related terms: "crypto", "bitcoin", "ethereum", "blockchain", etc.
+- Telegram links: "t.me"
