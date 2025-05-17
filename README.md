@@ -78,8 +78,9 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 
 7. **Search for Keywords**  
    → If any keyword is found in the content, the paste is logged.
+     ![Image](https://github.com/user-attachments/assets/8fc317e9-d528-42de-8f81-f29a0dc36bbf)
 
-8. **Log Results**  
+9. **Log Results**  
    → Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
 
    ![Image](https://github.com/user-attachments/assets/8fc317e9-d528-42de-8f81-f29a0dc36bbf)
