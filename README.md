@@ -3,6 +3,14 @@ This Python-based crawler scrapes recent public pastes from Pastebin and detects
 To avoid getting blocked, it uses proxy rotation and adds delays between requests. It also keeps detailed logs of everything it checks. Whenever it finds a match, it saves all keyword matches in a structured .jsonl format.
  
 
+
+## 🌐 Using Free Proxies from Webshare
+This project uses 5 proxy server URLs from Webshare to avoid IP blocking.
+All proxies are stored in the .env file as environment variables.
+You can get your own free proxy list here:
+https://dashboard.webshare.io/proxy/list
+
+
 ## 📁 Project Structure
 ```
 ├── .env                   # Environment variables (contains proxy list)
@@ -12,10 +20,3 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 └── README.md              
 ```
 
-
-
-## 🌐 Using Free Proxies from Webshare
-This project uses 5 proxy server URLs from Webshare to avoid IP blocking.
-All proxies are stored in the .env file as environment variables.
-You can get your own free proxy list here:
-https://dashboard.webshare.io/proxy/list
