@@ -69,11 +69,13 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 3. **Rotate Proxies**  
    → Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.
 
-4. **Fetch Raw Content**  
+   ![Image](https://github.com/user-attachments/assets/ec2b061e-d62c-490c-a1dd-6b6570e16cd4)
+
+5. **Fetch Raw Content**  
    → Each paste is accessed using its raw content link (`https://pastebin.com/raw/<paste_id>`).
 
-5. **Search for Keywords**  
+6. **Search for Keywords**  
    → If any keyword is found in the content, the paste is logged.
 
-6. **Log Results**  
+7. **Log Results**  
    → Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
