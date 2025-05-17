@@ -74,8 +74,10 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 5. **Fetch Raw Content**  
    → Each paste is accessed using its raw content link (`https://pastebin.com/raw/<paste_id>`).
 
-6. **Search for Keywords**  
+   ![Image](https://github.com/user-attachments/assets/02c964cd-91ec-4723-b1d3-d65c1b7ca102)
+
+7. **Search for Keywords**  
    → If any keyword is found in the content, the paste is logged.
 
-7. **Log Results**  
+8. **Log Results**  
    → Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
