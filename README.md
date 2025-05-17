@@ -35,7 +35,7 @@ https://dashboard.webshare.io/proxy/list
 
 
 
-# Clone and Install
+# 🚀 Clone and Run Locally
 
 ## 1. Clone the Repository
 ```bash
