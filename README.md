@@ -5,6 +5,13 @@ It also keeps detailed logs of everything it checks. Whenever it finds a match, 
 
 
 
+## Using Free Proxies from Webshare
+
+This project uses 5 proxy server URLs from Webshare to avoid IP blocking.  
+All proxies are stored in the .env file as environment variables.  
+You can get your own free proxy list here:
+https://dashboard.webshare.io/proxy/list
+
 ##  Project Structure
 ```
 ├── .env                   # Environment variables (contains proxy list)
@@ -27,11 +34,5 @@ pip install -r requirements.txt
 
 
 
-## Using Free Proxies from Webshare
-
-This project uses 5 proxy server URLs from Webshare to avoid IP blocking.  
-All proxies are stored in the .env file as environment variables.  
-You can get your own free proxy list here:
-https://dashboard.webshare.io/proxy/list
 
 
