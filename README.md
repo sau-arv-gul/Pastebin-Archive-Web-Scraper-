@@ -3,4 +3,14 @@ This Python-based crawler scrapes recent public pastes from Pastebin and detects
 To avoid getting blocked, it uses proxy rotation and adds delays between requests. It also keeps detailed logs of everything it checks.
 
 
+## 📁 Project Structure
+''' bash
+.
+├── crawler.py             # Main script
+├── .env                   # Environment variables (contains proxy list)
+├── crawler.log            # Log file
+├── keyword_matches.jsonl  # Output file with matched results
+└── README.md              # This file
+'''
+
 
