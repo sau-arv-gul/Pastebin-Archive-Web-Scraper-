@@ -4,6 +4,19 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 It also keeps detailed logs of everything it checks. Whenever it finds a match, it saves all keyword matches in a structured .jsonl format.
 
 
+
+##  Project Structure
+```
+├── .env                   # Environment variables (contains proxy list)
+├── crawler.log            # Log file
+├── requirements.txt       # dependencies
+├── crawler.py             # Main script
+├── keyword_matches.jsonl  # Output file with matched results
+└── README.md              
+```
+
+
+
 ##  Installation
 
 Install all required dependencies using:
@@ -14,23 +27,11 @@ pip install -r requirements.txt
 
 
 
-## 🌐 Using Free Proxies from Webshare
+## Using Free Proxies from Webshare
 
 This project uses 5 proxy server URLs from Webshare to avoid IP blocking.  
 All proxies are stored in the .env file as environment variables.  
 You can get your own free proxy list here:
 https://dashboard.webshare.io/proxy/list
 
-
-
-
-## 📁 Project Structure
-```
-├── .env                   # Environment variables (contains proxy list)
-├── crawler.log            # Log file
-├── requirements.txt       # dependencies
-├── crawler.py             # Main script
-├── keyword_matches.jsonl  # Output file with matched results
-└── README.md              
-```
 
