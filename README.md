@@ -4,7 +4,8 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 
 
 ## 📁 Project Structure
-'''bash
+
+```
 .
 ├── crawler.py             # Main script
 ├── .env                   # Environment variables (contains proxy list)
