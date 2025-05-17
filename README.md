@@ -24,12 +24,18 @@ https://dashboard.webshare.io/proxy/list
 
 
 
-##  Installation
+## 1. Installation
 
 Install all required dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+
+## 2. Run the crawler:
+```bash
+python crawler.py
 ```
 
 
