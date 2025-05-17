@@ -83,18 +83,4 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 9. **Results**  
    → Matches are saved in structured JSONL format (`keyword_matches.jsonl`) for further use.
 
-  ```
-  {
-  "source": "pastebin",
-  "context": "Found telegram-related content in Pastebin paste ID sXSGCD6K",
-  "paste_id": "sXSGCD6K",
-  "url": "https://pastebin.com/raw/sXSGCD6K",
-  "discovered_at": "2025-05-17T09:50:55.516560Z",
-  "keywords_found": [
-    "t.me"
-  ],
-  "status": "pending"
-}
-
-  ```
-  
+![Image](https://github.com/user-attachments/assets/55feac93-9157-4f10-b473-289e9d694f25)
