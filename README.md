@@ -20,6 +20,7 @@ https://dashboard.webshare.io/proxy/list
 ```
 ├── .env                   # Environment variables (contains proxy list)
 ├── crawler.log            # Log file
+├── requirements.txt       # dependencies
 ├── crawler.py             # Main script
 ├── keyword_matches.jsonl  # Output file with matched results
 └── README.md              
