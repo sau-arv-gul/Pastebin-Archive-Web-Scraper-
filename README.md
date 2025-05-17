@@ -80,8 +80,10 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 
    ![Image](https://github.com/user-attachments/assets/02c964cd-91ec-4723-b1d3-d65c1b7ca102)
 
-7. **Search for Keywords**  
-   → If any keyword is found in the content, the paste is logged.
+7. **Search for Keywords and logging activities**  
+      The tool checks each paste for specific keywords (like t.me). If a keyword is found,   
+      it logs the result with details like the time, paste ID, and keywords found.   
+      The log entries  look like this:
      ![Image](https://github.com/user-attachments/assets/8fc317e9-d528-42de-8f81-f29a0dc36bbf)
 
 9. **Results**  
