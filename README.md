@@ -53,7 +53,4 @@ pip install -r requirements.txt
 python crawler.py
 ```
 
-
-
-
-
+# 🔍 Proof of Concept (PoC)
