@@ -13,6 +13,16 @@ You can get your own free proxy list here:
 https://dashboard.webshare.io/proxy/list
 
 
+## Installation
+pip install -r requirements.txt
+
+## 🚀 Installation
+
+Install all required dependencies using:
+
+```bash
+pip install -r requirements.txt
+
 
 
 
