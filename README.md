@@ -4,14 +4,12 @@ To avoid getting blocked, it uses proxy rotation and adds delays between request
 
 
 ## 📁 Project Structure
-
 ```
-.
 ├── crawler.py             # Main script
 ├── .env                   # Environment variables (contains proxy list)
 ├── crawler.log            # Log file
 ├── keyword_matches.jsonl  # Output file with matched results
 └── README.md              # This file
-'''
+
 
 
