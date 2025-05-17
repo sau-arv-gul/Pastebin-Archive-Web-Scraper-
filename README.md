@@ -67,7 +67,7 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
    ![Image](https://github.com/user-attachments/assets/fd1452a9-e5f9-46e0-bad9-19b2d3d5fa47)
 
 3. **Rotate Proxies**  
-    Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.
+    Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.  
    We can see here that the scraper fetches content through different proxy servers, which helps
    distribute the requests evenly and reduces the chance of being blocked.
 
