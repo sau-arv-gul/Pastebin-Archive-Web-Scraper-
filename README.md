@@ -5,7 +5,7 @@ It also keeps detailed logs of everything it checks. Whenever it finds a match, 
 
 
 
-## Using Free Proxies from Webshare
+## 🌐 Using Free Proxies from Webshare
 
 - This project uses 5 proxy server URLs from Webshare to avoid IP blocking.  
 - All proxies are stored in the .env file as environment variables.  
