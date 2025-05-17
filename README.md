@@ -61,14 +61,18 @@ This project demonstrates an automated crawler that monitors the Pastebin archiv
 ## 🛠️ How It Works
 
 1. **Scrape Pastebin Archive**  
-   → Extract recent Paste IDs from the homepage.  
+    Extract recent Paste IDs from the homepage.  
    Below image shows Archive page being scraped:
    
    ![Image](https://github.com/user-attachments/assets/fd1452a9-e5f9-46e0-bad9-19b2d3d5fa47)
 
 3. **Rotate Proxies**  
-   → Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.
+    Requests are made using rotating proxies (e.g., from Webshare) to avoid bans or rate limits.
+   We can see here that the scraper fetches content through different proxy servers, which helps
+   distribute the requests evenly and reduces the chance of being blocked.
 
+
+    
    ![Image](https://github.com/user-attachments/assets/ec2b061e-d62c-490c-a1dd-6b6570e16cd4)
 
 5. **Fetch Raw Content**  
