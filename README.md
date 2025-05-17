@@ -24,16 +24,20 @@ https://dashboard.webshare.io/proxy/list
 
 
 
-## 1. Installation
+# Clone and Install
 
+## 1. Clone the Repository
+```bash
+git clone https://github.com/sau-arv-gul/Pastebin-Archive-Web-Scraper-.git
+cd Pastebin-Archive-Web-Scraper-
+```
+## 2. Install Dependencies
 Install all required dependencies using:
-
 ```bash
 pip install -r requirements.txt
 ```
 
-
-## 2. Run the crawler:
+## 3. Run the crawler:
 ```bash
 python crawler.py
 ```
